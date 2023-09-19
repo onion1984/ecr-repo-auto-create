@@ -1,0 +1,10 @@
+{
+  "source": ["aws.ecr"],
+  "detail-type": ["AWS API Call via CloudTrail"],
+  "detail": {
+    "awsRegion": ["ap-southeast-1"],
+    "eventSource": ["ecr.amazonaws.com"],
+    "eventName": ["InitiateLayerUpload"],
+    "errorCode": ["RepositoryNotFoundException"]
+  }
+}
